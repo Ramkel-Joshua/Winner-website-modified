@@ -59,6 +59,17 @@
 .four p{
     padding-right: 55px;
 }
+.one, .two, .three, .four{
+    height: 500px;
+}
+/*
+.two{
+    margin-left: 5px;
+}
+.three{
+    margin-left: 5px;
+}
+*/
 .left p{
     padding-right: 120px;
 }
@@ -92,14 +103,21 @@
     color: white;
     font-size: 18px;
 }
-input{
-    float: left;
-    margin-left: 600px;
+#form{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+     
+/*    background-color: rgba(0, 0, 0, 0.5);*/
 }
-textarea{
-    float: right;
-    margin-right: 200px;
-    
+input, textarea{
+  background: aliceblue;
+    color: aliceblue;
+    margin-bottom: 8px;
+     background-color: transparent;
+}
+#submit{
+    background-color: black;
 }
 footer{
     text-align: center;
